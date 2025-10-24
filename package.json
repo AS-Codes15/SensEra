@@ -41,6 +41,7 @@
     "dom-to-image-more": "^3.7.1",
     "html-to-image": "^1.11.13",
     "html2pdf.js": "^0.12.1",
+    "inngest": "^3.44.3",
     "jspdf": "^3.0.3",
     "lucide-react": "^0.545.0",
     "marked": "^16.4.1",
