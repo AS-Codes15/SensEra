@@ -11,7 +11,7 @@ export const testimonial = [
     quote:
       "The industry insights helped me pivot my career successfully. The salary data was spot-on!",
     author: "Michael Rodriguez",
-    image: "user2.jpg",
+    image: "/user2.jpg",
     role: "Product Manager",
     company: "StartUp Inc.",
   },
@@ -19,7 +19,7 @@ export const testimonial = [
     quote:
       "My resume's ATS score improved significantly. Got more interviews in two weeks than in six months!",
     author: "Priya Patel",
-    image: "user3.jpg",
+    image: "/user3.jpg",
     role: "Marketing Director",
     company: "Global Corp",
   },
