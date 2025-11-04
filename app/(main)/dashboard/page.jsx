@@ -6,12 +6,12 @@ import DashboardView from "./_components/dashboard-view";
 const IndustryInsightsPage = async () => {
   const { isOnboarded } = await getUserOnboardingStatus();
 
-  // ⛔️ Stop execution early if not onboarded
+  // Stop execution early if not onboarded
   if (!isOnboarded) {
     redirect("/onboarding");
   }
 
-  // ✅ Safe to load insights now
+  // Safe to load insights now
   const insights = await getIndustryInsights();
 
   return (
