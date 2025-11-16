@@ -9,8 +9,23 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SensEra - AI Career Coach",
-  description: "",
+  description:
+    "SensEra helps you generate AI-powered resumes, cover letters, mock interviews, career insights, and job preparation tools.",
+  keywords: [
+    "AI resume builder",
+    "AI cover letter generator",
+    "mock interview",
+    "Industry insights",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/SensEra_logo.png",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -18,6 +33,7 @@ export default function RootLayout({ children }) {
       <html lang="en" suppressHydrationWarning>
         <head>
           <link rel="icon" href="/SensEra_logo.png" sizes="any" />
+          <meta name="google-site-verification" content="xG11mAS9tWB8GUhdZP5JeObmpuZI-AjObYICKTV-G-8" />
         </head>
         <body className={inter.className}>
           <ThemeProvider
