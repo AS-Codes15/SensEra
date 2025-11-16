@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sensera-beryl.vercel.app
+
+# Sitemaps
+Sitemap: https://sensera-beryl.vercel.app/sitemap.xml
